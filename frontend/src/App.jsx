@@ -97,7 +97,7 @@ export default function App() {
   return (
     <div className="container">
       <form id="form" onSubmit={handleSubmit} noValidate>
-        <h1>RegistrationForm</h1>
+        <h1>Registra</h1>
 
         {message && (
           <div className={`form-message ${message.type === "error" ? "error" : "success"}`}>
